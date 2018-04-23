@@ -8,3 +8,6 @@ typedef struct{
 
 
 #endif // SERIE_H_INCLUDED
+
+void CrearListadoSeries(eSerie[],int);
+void MostrarSeries(eSerie[], int);

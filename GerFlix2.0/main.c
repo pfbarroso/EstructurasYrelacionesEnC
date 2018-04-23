@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "serie.h"
+#include "usuario.h"
 /**
 *
     1. los datos de la serie que ve cada usuario
@@ -9,6 +11,12 @@
 */
 int main()
 {
-    printf("Pablo Barroso\n");
+    //printf("Pablo Barroso\n");
+    eSerie ArrayDeSeries[5];
+    CrearListadoSeries(ArrayDeSeries, 5);
+    MostrarSeries(ArrayDeSeries, 5);
+
+
     return 0;
 }
+
