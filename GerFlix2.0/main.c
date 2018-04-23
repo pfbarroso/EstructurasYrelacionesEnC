@@ -13,9 +13,12 @@ int main()
 {
     //printf("Pablo Barroso\n");
     eSerie ArrayDeSeries[5];
+    eUsuario ArrayDeUsers[3];
     CrearListadoSeries(ArrayDeSeries, 5);
     MostrarSeries(ArrayDeSeries, 5);
-
+    printf("\n");
+    CrearListadoDeTresUsuarios(ArrayDeUsers);
+    MostrarUsers(ArrayDeUsers, 3);
 
     return 0;
 }

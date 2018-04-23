@@ -7,3 +7,6 @@ typedef struct{
 
 
 #endif // USUARIO_H_INCLUDED
+
+void CrearListadoDeTresUsuarios(eUsuario[]);
+void MostrarUsers(eUsuario[], int);
